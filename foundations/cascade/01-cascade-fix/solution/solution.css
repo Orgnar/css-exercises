@@ -31,7 +31,11 @@ div.text {
 
   .small-para {
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 8.para,
+.small-para {
+  color: hsl(0, 0%, 0%);
+  font-weight: 800;
+}00;
   } 
 
   Then we placed it after the .para selector, taking advantage of the rule order since both selectors have the same specificity. 
